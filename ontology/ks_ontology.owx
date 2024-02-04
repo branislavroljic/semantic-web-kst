@@ -1,0 +1,2792 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/legion/ontologies/2023/11/ks_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/legion/ontologies/2023/11/ks_ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/legion/ontologies/2023/11/ks_ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="part" IRI="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl</Import>
+    <Declaration>
+        <NamedIndividual IRI="#Student5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD1.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD1.2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AssessmentTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemABCD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AD2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrueFalse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD1.1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABC3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plaintext"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCorrect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AD3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemBC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB1.1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Problem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB3.3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeSpace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Question"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BCD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD3.1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudentAssessmentTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A1.2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AB1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BCD3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_B1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AB2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemABC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BCD2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_B2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC1.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AB3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BC2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABD2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD2.1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsToTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD3.2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemABD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A3.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_B3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC1.3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIndexNumber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD3.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_BC3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B1.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABD3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB1.2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFullName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KnowledgeSpace1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD1.3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubProblem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A2.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProblemBCD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABC3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Answer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BC2.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABCD1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_BCD3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_B1.3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_AD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Question_ABC2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AD1.2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multiselect"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_ABD1.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_A3.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Answer_AB1.3"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Answer"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentTest"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AssessmentTest"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="part:hasPart"/>
+            <Class IRI="#Question"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeSpace"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeSpace"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="part:hasPart"/>
+            <Class IRI="#Problem"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multiselect"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plaintext"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Problem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="part:hasPart"/>
+            <Class IRI="#Question"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Question"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="part:hasPart"/>
+            <Class IRI="#Answer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Student"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrueFalse"/>
+        <Class IRI="#Question"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_A3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AB3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABC3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_ABD3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_AD3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_B3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BC3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD1.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD1.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD1.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD2.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD2.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD2.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD3.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD3.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Answer"/>
+        <NamedIndividual IRI="#Answer_BCD3.3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentTest"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentTest"/>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AssessmentTest"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeSpace"/>
+        <NamedIndividual IRI="#KnowledgeSpace1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Problem"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_A2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_B1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_B2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_B3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Multiselect"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentAssessmentTest"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentAssessmentTest"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StudentAssessmentTest"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Student"/>
+        <NamedIndividual IRI="#Student6"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <NamedIndividual IRI="#Question_A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+        <NamedIndividual IRI="#Question_B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_2"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+        <NamedIndividual IRI="#Question_A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Assessment_Test_3"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <NamedIndividual IRI="#Question_A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <NamedIndividual IRI="#Question_A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <NamedIndividual IRI="#Question_A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#ProblemA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#ProblemB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <NamedIndividual IRI="#ProblemA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <NamedIndividual IRI="#Question_B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <NamedIndividual IRI="#Question_B2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <NamedIndividual IRI="#Question_B3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#ProblemB"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A1"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A1"/>
+        <NamedIndividual IRI="#Answer_A1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A1"/>
+        <NamedIndividual IRI="#Answer_A1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A2"/>
+        <NamedIndividual IRI="#Answer_A2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A2"/>
+        <NamedIndividual IRI="#Answer_A2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A2"/>
+        <NamedIndividual IRI="#Answer_A2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A3"/>
+        <NamedIndividual IRI="#Answer_A3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A3"/>
+        <NamedIndividual IRI="#Answer_A3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_A3"/>
+        <NamedIndividual IRI="#Answer_A3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+        <NamedIndividual IRI="#Answer_AB1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+        <NamedIndividual IRI="#Answer_AB1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+        <NamedIndividual IRI="#Answer_AB1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+        <NamedIndividual IRI="#Answer_AB2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+        <NamedIndividual IRI="#Answer_AB2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+        <NamedIndividual IRI="#Answer_AB3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+        <NamedIndividual IRI="#Answer_AB3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+        <NamedIndividual IRI="#Answer_AB3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+        <NamedIndividual IRI="#Answer_ABC1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+        <NamedIndividual IRI="#Answer_ABC2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+        <NamedIndividual IRI="#Answer_ABC2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+        <NamedIndividual IRI="#Answer_ABC2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+        <NamedIndividual IRI="#Answer_ABC3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+        <NamedIndividual IRI="#Answer_ABC3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+        <NamedIndividual IRI="#Answer_ABC3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+        <NamedIndividual IRI="#Answer_ABCD1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+        <NamedIndividual IRI="#Answer_ABCD1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+        <NamedIndividual IRI="#Answer_ABCD1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+        <NamedIndividual IRI="#Answer_ABCD2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+        <NamedIndividual IRI="#Answer_ABCD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+        <NamedIndividual IRI="#Answer_ABCD2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+        <NamedIndividual IRI="#Answer_ABCD3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+        <NamedIndividual IRI="#Answer_ABCD3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+        <NamedIndividual IRI="#Answer_ABD1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+        <NamedIndividual IRI="#Answer_ABD1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+        <NamedIndividual IRI="#Answer_ABD1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+        <NamedIndividual IRI="#Answer_ABD2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+        <NamedIndividual IRI="#Answer_ABD2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+        <NamedIndividual IRI="#Answer_ABD3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+        <NamedIndividual IRI="#Answer_ABD3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+        <NamedIndividual IRI="#Answer_ABD3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+        <NamedIndividual IRI="#Answer_AD1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+        <NamedIndividual IRI="#Answer_AD1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+        <NamedIndividual IRI="#Answer_AD1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+        <NamedIndividual IRI="#Answer_AD2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+        <NamedIndividual IRI="#Answer_AD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+        <NamedIndividual IRI="#Answer_AD2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+        <NamedIndividual IRI="#Answer_AD3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+        <NamedIndividual IRI="#Answer_AD3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+        <NamedIndividual IRI="#Answer_AD3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B1"/>
+        <NamedIndividual IRI="#Answer_B1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B1"/>
+        <NamedIndividual IRI="#Answer_B1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B1"/>
+        <NamedIndividual IRI="#Answer_B1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B2"/>
+        <NamedIndividual IRI="#Answer_B2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B2"/>
+        <NamedIndividual IRI="#Answer_B2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B2"/>
+        <NamedIndividual IRI="#Answer_B2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B3"/>
+        <NamedIndividual IRI="#Answer_B3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B3"/>
+        <NamedIndividual IRI="#Answer_B3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_B3"/>
+        <NamedIndividual IRI="#Answer_B3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+        <NamedIndividual IRI="#Answer_BC1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+        <NamedIndividual IRI="#Answer_BC1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+        <NamedIndividual IRI="#Answer_BC1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+        <NamedIndividual IRI="#Answer_BC2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+        <NamedIndividual IRI="#Answer_BC2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+        <NamedIndividual IRI="#Answer_BC2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+        <NamedIndividual IRI="#Answer_BC3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+        <NamedIndividual IRI="#Answer_BC3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+        <NamedIndividual IRI="#Answer_BC3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+        <NamedIndividual IRI="#Answer_BCD1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+        <NamedIndividual IRI="#Answer_BCD1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+        <NamedIndividual IRI="#Answer_BCD1.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+        <NamedIndividual IRI="#Answer_BCD2.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+        <NamedIndividual IRI="#Answer_BCD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+        <NamedIndividual IRI="#Answer_BCD2.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+        <NamedIndividual IRI="#Answer_BCD3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+        <NamedIndividual IRI="#Answer_BCD3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+        <NamedIndividual IRI="#Answer_BCD3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+        <NamedIndividual IRI="#Student1"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToTest"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABCD3.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student1_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+        <NamedIndividual IRI="#Student2"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToTest"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABCD3.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student2_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+        <NamedIndividual IRI="#Student3"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsToTest"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="part:hasPart"/>
+        <NamedIndividual IRI="#Student3_Assessment_Test_1"/>
+        <NamedIndividual IRI="#Answer_ABD2.1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_A2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_A3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_A3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AB1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AB3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AB3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABC2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABC3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABC3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABCD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABCD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABCD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_ABD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_ABD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_AD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_AD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_B1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_B2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_B3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_B3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BC1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BC2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BC3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BC3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BCD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD1.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD1.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD1.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD1.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD2.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD2.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BCD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD2.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD2.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD2.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD3.1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD3.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD3.2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD3.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCorrect"/>
+        <NamedIndividual IRI="#Answer_BCD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Answer_BCD3.3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD3.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Assessment_Test_1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Assessmet_Test_1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#KnowledgeSpace1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Generic Knowledge Space</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemA"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemAB"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemABC"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemABCD"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABCD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemABD"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ABD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemAD"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">AD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemB"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemBC"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#ProblemBCD"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BCD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_A1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question A1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_A2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question A2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_A3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question A3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AB1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AB1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AB2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AB2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AB3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AB3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABC1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABC1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABC2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABC2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABC3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABC3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABCD1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABCD1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABCD2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABCD2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABCD3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABCD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABD1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABD1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABD2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABD2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_ABD3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question ABD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AD1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AD1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AD2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AD2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_AD3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question AD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_B1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question B1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_B2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question B2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_B3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question B3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BC1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BC1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BC2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BC2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BC3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BC3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BCD1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BCD1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BCD2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BCD2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasTitle"/>
+        <NamedIndividual IRI="#Question_BCD3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Question BCD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Janko Jankovic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student1"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Marko Markovic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">2/23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Milan Milanic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student3"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">3/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dragan Draganic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student4"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">4/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student5"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Goran Goranic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student5"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">5/2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasFullName"/>
+        <NamedIndividual IRI="#Student6"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ivan Ivanic</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <NamedIndividual IRI="#Student6"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">6/2023</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasSubProblem"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsToTest"/>
+        <Class IRI="#StudentAssessmentTest"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+        <Class IRI="#Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <Class IRI="#Problem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <Class IRI="#Problem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsToTest"/>
+        <Class IRI="#AssessmentTest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAssessmentTest"/>
+        <Class IRI="#StudentAssessmentTest"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSubProblem"/>
+        <Class IRI="#Problem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSubProblemOf"/>
+        <Class IRI="#Problem"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasCorrect"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasFullName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasTitle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCorrect"/>
+        <Class IRI="#Answer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasFullName"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <Class IRI="#Student"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Answer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#AssessmentTest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Problem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Question"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCorrect"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasFullName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIndexNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
