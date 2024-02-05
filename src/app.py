@@ -75,7 +75,9 @@ def done():
     sys.exit()
 
 if __name__ == '__main__':
-    onto = get_ontology("../ontology/ks_ontology.owx").load()
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    print(script_dir)
+    onto = get_ontology(os.path.join(script_dir, "../ontology/ks_ontology.owx")).load()
     count_correct_answers("A")
    
 
@@ -91,71 +93,6 @@ if __name__ == '__main__':
     assessmentTest.hasPart.append(onto.search_one(hasTitle = 'Question BCD1'))
     assessmentTest.hasPart.append(onto.search_one(hasTitle = 'Question ABCD1'))
 
-    # student1 = onto.Student("Student1")
-    # student1.hasFullName.append('Name1 Surname1')
-    # student1.hasIndexNumber.append('1111/1')
-
-    # student1_Full_Test = onto.StudentAssessmentTest("Student1_Full_Test")
-    # student1_Full_Test.belongsToTest.append(assessmentTest)
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'A1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'B1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AB1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AD1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BC1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABD1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABC1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BCD1.1'))
-    # student1_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABCD1.1'))
-
-    
-    # student2_Full_Test = onto.StudentAssessmentTest("Student2_Full_Test")
-    # student2_Full_Test.belongsToTest.append(assessmentTest)
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'A1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'B1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AB1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AD1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BC1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABD1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABC1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BCD1.2'))
-    # student2_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABCD1.2'))
-
-
-    # student3_Full_Test = onto.StudentAssessmentTest("Student3_Full_Test")
-    # student3_Full_Test.belongsToTest.append(assessmentTest)
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'A1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'B1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AB1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'AD1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BC1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABD1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABC1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'BCD1.3'))
-    # student3_Full_Test.hasPart.append(onto.search_one(hasTitle = 'ABCD1.3'))
-
-
-    # for i in range(1, 11):
-    #     student_name = f"Student{i}"
-    #     student = onto.Student(student_name)
-    #     student.hasFullName.append(f'Name{i} Surname{i}')
-    #     student.hasIndexNumber.append(f'{1110+i}/{i}')
-
-    #     student_full_test = onto.StudentAssessmentTest(f"{student_name}_Full_Test")
-    #     student_full_test.belongsToTest.append(assessmentTest)
-    #     random_number = random.randint(1, 3)
-
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'A1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'B1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'AB1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'AD1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'BC1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'ABD1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'ABC1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'BCD1.{random_number}'))
-    #     student_full_test.hasPart.append(onto.search_one(hasTitle = f'ABCD1.{random_number}'))
-
-    # onto.save(file = "ks_ontology.owx", format = "rdfxml")
-    # system('cls')
     while True:
             display_menu()
             choice = input("\nSelect option: ")
@@ -177,16 +114,4 @@ if __name__ == '__main__':
                 break
             else:
                 print("Invalid choice. Please enter a number between 0 and 5.")
-
-
-
-    # list_students()
-    # print("\nKnowledge state for student: ")
-    # find_knowledge_state_for_student("Milan")
-    # print("\nStudents for problem: ")
-    # find_students_for_problem("AB")
-    # print("\nNext problems for student")
-    # find_next_problems_for_student("Milan")
-    # print("\nStudents for knowledge state: ")
-    # find_students_for_knowladge_state(["ProblemA", "ProblemB"])
 

@@ -184,25 +184,6 @@ def find_next_problems_for_student(student_name):
     for result in results: print(result[0], " -> ", result[1])
 
 
-
-
-    # qa = """
-    #  PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    #     PREFIX owl: <http://www.w3.org/2002/07/owl#>
-    #     PREFIX ks: <http://www.semanticweb.org/legion/ontologies/2023/11/ks_ontology#>
-
-    #     SELECT ?question ?correctAnswer
-    #     WHERE {
-    #     ks:Assessment_Test_1 rdf:type ks:AssessmentTest .
-    #     ks:Assessment_Test_1 part:hasPart ?question .
-    #     ?question part:hasPart ?correctAnswer .
-    #     ?correctAnswer ks:hasCorrect "true"^^xsd:boolean .
-    #     }
-    # """
-    # qaResults = list(default_world.sparql(qa))
-    # for qaResult in  qaResults : print(qaResult[0], " : ", qaResult[1])
-
-
 def find_optimum_learning_path(current_problem, path, visited):
     visited.add(current_problem)
 
