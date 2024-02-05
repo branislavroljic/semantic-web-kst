@@ -32,7 +32,7 @@ Make sure your virtual environment is activated.
 Run the main script:
 
 ```bash
-python app.py
+python ./src/app.py
 ```
 
 # Knowledge space theory
