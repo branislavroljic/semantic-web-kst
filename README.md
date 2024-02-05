@@ -15,7 +15,7 @@
 2. Create and activate a virtual environment (optional but recommended):
 
     ```bash
-    python -m venv kst
+    python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
