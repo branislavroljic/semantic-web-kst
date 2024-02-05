@@ -1,6 +1,6 @@
 import random
 from owlready2 import *
-from src.queries import *
+from queries import *
 
 import sys
 from os import system
