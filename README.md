@@ -49,7 +49,7 @@ The nodes in the graph represent states of knowledge, and the edges of the graph
 
 For the knowledge structure to be a learning space, it is necessary to satisfy the following axioms:
 
-**Learning Smoothness**: This property establishes the existence of enough knowledge states such that every state can be mastered by learning one concept at a time.
+**Learning Smoothness**: This property establishes the existence of enough knowledge states such that every state can be mastered by learning one concept at a time.\
 **Learning Consistency**: This property ensures the existence of enough states to represent any feasible order of item mastery.
 
 ## Project
